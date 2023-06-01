@@ -1,17 +1,14 @@
 // ==UserScript==
 // @name         Polytoria Link Texture
-// @icon         https://cdn.discordapp.com/attachments/898314728219242597/900157044009611284/image.png
+// @icon         *://cdn.discordapp.com/attachments/898314728219242597/900157044009611284/image.png
 // @license      Apache-2.0
 // @namespace    lol
 // @version      1.0.0
 // @description  Adds A Button To Link Polytoria Textures!
 // @author       levisurely
-// @match        https://polytoria.com/shop/*
+// @match        *://polytoria.com/shop/*
 // @grant        none
 // ==/UserScript==
-
-//lev#9999 On Discord
-//discord.gg/tmYQr99wTa
 
 (function () {
   const gid = Number(window.location.pathname.split("/")[2]);
@@ -20,10 +17,10 @@
   let btn = document.createElement("button");
   btn.id = "lev-texture";
   btn.onclick = function () {
-    window.open(`https://polytoria.com/assets/catalog/${gid}.png`);
+    window.open(`*://polytoria.com/assets/catalog/${gid}.png`);
   };
   btn.type = "button";
-  btn.href = `https://polytoria.com/assets/catalog/${gid}.png`;
+  btn.href = `*://polytoria.com/assets/catalog/${gid}.png`;
   btn.innerHTML = "View Texture";
   btn.className = "btn btn-block";
   btn.style.backgroundColor = "#8c39d1";

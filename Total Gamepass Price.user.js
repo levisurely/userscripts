@@ -1,20 +1,17 @@
 // ==UserScript==
 // @name         Total Gamepass Price
-// @icon         https://cdn.discordapp.com/attachments/898314728219242597/900157044009611284/image.png
+// @icon         *://cdn.discordapp.com/attachments/898314728219242597/900157044009611284/image.png
 // @namespace    lol
-// @namespace    https://www.roblox.com/
+// @namespace    *://www.roblox.com/
 // @version      1.0.0
 // @description  Shows Total Robux Amount On Gamepasses
 // @author       levisurely
 // @license      Apache-2.0
-// @match        https://www.roblox.com/games*
-// @match        https://web.roblox.com/games*
-// @match        https://roblox.com/games*
+// @match        *://www.roblox.com/games*
+// @match        *://web.roblox.com/games*
+// @match        *://roblox.com/games*
 // @grant        none
 // ==/UserScript==
-
-//lev#9999 On Discord
-//discord.gg/tmYQr99wTa
 
 setInterval(function(){
 function addCommas(x) {
