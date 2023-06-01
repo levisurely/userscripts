@@ -2,7 +2,11 @@
 // @name           Jlab Fake Results
 // @description    Shows That You All The Questions Correct and stuff
 // @include        *://education.jlab.org/solquiz/question.html*
-// @version 0.0.1
+// @author       levisurely
+// @license      Apache-2.0
+// @version 0.0.2
+// @grant        none
+// @namespace https://github.com/horsehair/userscripts/blob/main/Jlab%20Fake%20Results.user.js
 // ==/UserScript==
 
 (function() {
