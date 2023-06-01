@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           Jlab Fake Results
-// @description    Jlab Fake Results
+// @description    Shows That You All The Questions Correct and stuff
 // @include        *://education.jlab.org/solquiz/question.html*
 // @version 0.0.1
 // ==/UserScript==
